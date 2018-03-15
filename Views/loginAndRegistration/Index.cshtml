@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/style.css"/>
+    <title>FormSubmission</title>
+</head>
+<body>
+  @model theWall.Models.User
+
+<div class="container">
+        <div class="card">
+            <div class="text-center">
+            <h1>Login and Registration</h1>
+        </div>
+<form asp-controller="loginAndRegistration" asp-action="register" method="post">
+  <div class="form-group">
+    <span asp-validation-for="firstName"></span>
+    <br>
+    <label for="noteTitle">First Name:</label>
+    <input type="text" class="form-control" asp-for="first_name" placeholder="First Name">
+  </div>
+    <div class="form-group">
+      <span asp-validation-for="lastName"></span>
+      <br>
+    <label for="noteTitle">Last Name:</label>
+    <input type="text" class="form-control" asp-for="last_name" placeholder="Last Name">
+  </div>
+    <div class="form-group">
+      @ViewBag.email
+      <span asp-validation-for="email"></span>
+      <br>
+    <label for="noteTitle">Email:</label>
+    <input type="email" class="form-control" asp-for="email" placeholder="Email Adress">
+  </div>
+    <div class="form-group">
+      <span asp-validation-for="password"></span>
+      <br>
+    <label for="noteTitle">Password:</label>
+    <input type="password" class="form-control" asp-for="password" placeholder="password">
+  </div>
+    
+    <div class="form-group">
+      <span asp-validation-for="confirmPassword"></span>
+      <br>
+    <label for="noteTitle">Password Confirmation:</label>
+    <input type="password" class="form-control" asp-for="confirmPassword" placeholder="password">
+  </div>
+    <div class="text-center">
+      <br>
+  <button type="submit" class="btn btn-primary">Register</button>
+  </form>
+  <br>
+  <form asp-controller="loginAndRegistration" action="toLogin">
+  <div class="text-center">
+    <br>
+  <button type="submit" class="btn btn-primary">Already Registered Go to Login</button>
+  </div>
+  </div>
+  
+  </form>
+  <a href="/testRoute">CLick This</a>
+  </div>
+  </div>
+</body>
+</html>

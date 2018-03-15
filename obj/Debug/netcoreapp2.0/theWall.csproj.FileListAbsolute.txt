@@ -1,0 +1,10 @@
+/Users/colinrhys/Desktop/codingDojo/c#/theWall/bin/Debug/netcoreapp2.0/theWall.deps.json
+/Users/colinrhys/Desktop/codingDojo/c#/theWall/bin/Debug/netcoreapp2.0/theWall.runtimeconfig.json
+/Users/colinrhys/Desktop/codingDojo/c#/theWall/bin/Debug/netcoreapp2.0/theWall.runtimeconfig.dev.json
+/Users/colinrhys/Desktop/codingDojo/c#/theWall/bin/Debug/netcoreapp2.0/theWall.dll
+/Users/colinrhys/Desktop/codingDojo/c#/theWall/bin/Debug/netcoreapp2.0/theWall.pdb
+/Users/colinrhys/Desktop/codingDojo/c#/theWall/obj/Debug/netcoreapp2.0/theWall.csproj.CoreCompileInputs.cache
+/Users/colinrhys/Desktop/codingDojo/c#/theWall/obj/Debug/netcoreapp2.0/theWall.AssemblyInfoInputs.cache
+/Users/colinrhys/Desktop/codingDojo/c#/theWall/obj/Debug/netcoreapp2.0/theWall.AssemblyInfo.cs
+/Users/colinrhys/Desktop/codingDojo/c#/theWall/obj/Debug/netcoreapp2.0/theWall.dll
+/Users/colinrhys/Desktop/codingDojo/c#/theWall/obj/Debug/netcoreapp2.0/theWall.pdb
